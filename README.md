@@ -45,15 +45,15 @@
 
 ## 1. Introduction
 
-We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. 
-DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated remarkable performance on reasoning.
-With RL, DeepSeek-R1-Zero naturally emerged with numerous powerful and interesting reasoning behaviors.
-However, DeepSeek-R1-Zero encounters challenges such as endless repetition, poor readability, and language mixing. To address these issues and further enhance reasoning performance,
-we introduce DeepSeek-R1, which incorporates cold-start data before RL.
-DeepSeek-R1 achieves performance comparable to OpenAI-o1 across math, code, and reasoning tasks. 
-To support the research community, we have open-sourced DeepSeek-R1-Zero, DeepSeek-R1, and six dense models distilled from DeepSeek-R1 based on Llama and Qwen. DeepSeek-R1-Distill-Qwen-32B outperforms OpenAI-o1-mini across various benchmarks, achieving new state-of-the-art results for dense models.
+我们推出了第一代推理模型，DeepSeek-R1-Zero 和 DeepSeek-R1。  
+DeepSeek-R1-Zero 是一个通过大规模强化学习（RL）训练的模型，没有经过监督微调（SFT）作为初步步骤，在推理任务中展现了卓越的性能。  
+通过强化学习，DeepSeek-R1-Zero 自然涌现出许多强大且有趣的推理行为。  
+然而，DeepSeek-R1-Zero 也面临一些挑战，例如无限重复、可读性差和语言混合等问题。为了解决这些问题并进一步提升推理性能，  
+我们推出了 DeepSeek-R1，它在强化学习之前引入了冷启动数据。  
+DeepSeek-R1 在数学、代码和推理任务中实现了与 OpenAI-o1 相当的性能。  
+为了支持研究社区，我们开源了 DeepSeek-R1-Zero、DeepSeek-R1 以及基于 Llama 和 Qwen 从 DeepSeek-R1 蒸馏出的六个稠密模型。其中，DeepSeek-R1-Distill-Qwen-32B 在各种基准测试中超越了 OpenAI-o1-mini，为稠密模型创造了新的最先进结果。  
 
-**NOTE: Before running DeepSeek-R1 series models locally, we kindly recommend reviewing the [Usage Recommendation](#usage-recommendations) section.**
+**注意：在本地运行 DeepSeek-R1 系列模型之前，我们建议您仔细阅读 [使用建议](#usage-recommendations) 部分。**
 
 <p align="center">
   <img width="80%" src="figures/benchmark.jpg">
